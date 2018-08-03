@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-gemspec
 
 gem 'omniauth-google-oauth2', '~> 0.5.3'
 
