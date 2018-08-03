@@ -2,7 +2,7 @@ module GoogleSignin
   class << self
     require 'omniauth-google-oauth2'
 
-    def authenticate_user
+    def authenticate_user(request)
       request.env['omniauth.auth']
     end
 
