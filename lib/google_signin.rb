@@ -11,11 +11,11 @@ module GoogleSignin
     end
 
     def create_session(session, user_id)
-      session[:user_id] = user_id
+      session = user_id
     end
 
     def destory_session(session)
-      session[:user_id] = nil
+      session = nil
     end
   end
 end
