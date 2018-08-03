@@ -6,12 +6,12 @@ module GoogleSignin
       request.env['omniauth.auth']
     end
 
-    def create_session(session, user_id)
-      session = user_id
+    def create_session(user_id)
+      session[:user_id] = user_id
     end
 
-    def destory_session(session)
-      session = nil
+    def destory_session
+      session[:user_id] = nil
     end
   end
 end
