@@ -1,3 +1,4 @@
+require '/generators/google_signin_generator'
 module GoogleSignin
   class << self
     require 'omniauth-google-oauth2'
