@@ -1,4 +1,3 @@
-cat './generators/google_signin_generator'
 module GoogleSignin
   class << self
     require 'gsi/railtie' if defined? Rails
