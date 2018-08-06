@@ -1,6 +1,7 @@
-require '/generators/google_signin_generator'
+cat './generators/google_signin_generator'
 module GoogleSignin
   class << self
+    require 'gsi/railtie' if defined? Rails
     require 'omniauth-google-oauth2'
 
     def authenticate_user(request)
