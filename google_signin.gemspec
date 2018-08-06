@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'google_signin'
-  s.version = '1.0.8'
+  s.version = '1.0.9'
   s.date = '2018-08-02'
   s.summary = 'Authentication and Sign in with Google'
   s.description = 'Sends a user to the google login and returns a user object of who has moved in'
