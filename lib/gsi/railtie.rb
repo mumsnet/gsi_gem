@@ -1,3 +1,4 @@
+require 'rails'
 module GSI
   class Railtie < Rails::Railtie
     initializer 'my_railtie.configure_rails_initializer' do |app|
