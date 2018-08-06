@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = 'Sends a user to the google login and returns a user object of who has moved in'
   s.authors = ['Dan Buckle']
   s.email = ['']
-  s.files = ['lib/google_signin.rb']
+  s.files = ['lib/google_signin.rb', 'lib/gsi/railtie.rb']
   s.require_paths = ['lib']
   s.add_dependency 'omniauth-google-oauth2'
   s.homepage = 'https://github.com/buckled0'
